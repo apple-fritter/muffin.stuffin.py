@@ -1,0 +1,2 @@
+# firefox.egress
+bookmark egress
