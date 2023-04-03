@@ -1,8 +1,27 @@
+import argparse
+import os
 import sqlite3
 import html
 
+# Parse the command-line arguments
+parser = argparse.ArgumentParser(description='Extract Firefox bookmarks to an HTML file.')
+parser.add_argument('--path', type=str, help='path to the Firefox places.sqlite file')
+args = parser.parse_args()
+
+# If the path is not provided, prompt the user to input it
+if not args.path:
+    while True:
+        path = input('Please enter the path to the Firefox places.sqlite file: ')
+        if os.path.exists(path):
+            break
+        print('Error: The specified file does not exist.')
+
+# Otherwise, use the provided path
+else:
+    path = args.path
+
 # Connect to the places.sqlite file
-conn = sqlite3.connect('places.sqlite')
+conn = sqlite3.connect(path)
 
 # Query the bookmarks data
 query = "SELECT moz_bookmarks.title, moz_places.url FROM moz_bookmarks JOIN moz_places ON moz_bookmarks.fk = moz_places.id WHERE moz_bookmarks.type = 1 ORDER BY moz_bookmarks.position;"
