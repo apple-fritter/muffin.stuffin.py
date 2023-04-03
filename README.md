@@ -1,16 +1,17 @@
-# firefox.egress
+# bookmark.egress
 
-firefox.egress is a Python script that extracts bookmark data from a Firefox places.sqlite file and exports it as an HTML file. The HTML file retains the organizational structure of bookmarks, and includes only the title and URL information.
+`bookmark.egress` is a Python script that extracts bookmark data from a Firefox `places.sqlite` file and exports it as an HTML file. The HTML file retains the organizational structure of bookmarks, and includes only the title and URL information.
 
-By using firefox.egress, users can save time and manage their bookmarks more efficiently.
+By using `bookmark.egress`, users can save time and manage their bookmarks more efficiently.
 
 ## Usage
 
-To use the program, first make sure you have Python installed on your machine. Then, download the `firefox-egress.py` file and save it in the same directory as your `places.sqlite` file.
+To use the program, first make sure you have Python installed on your machine. Then, download the `bookmark-egress.py` file and save it in the same directory as your `places.sqlite` file.
 
 To run the program, open a terminal in the same directory as the `firefox-egress.py` and `places.sqlite` files, and enter the following command:
 
-`python firefox-egress.py`
+`python bookmark-egress.py`
+
 
 The program will automatically locate the `places.sqlite` file and export the bookmark data to an HTML file named `bookmarks.html`.
 
@@ -36,4 +37,4 @@ Here are three potential use cases for this program:
 
 ## Privacy Considerations
 
-When using the program, there are privacy considerations to keep in mind. Users should ensure they have permission to access the Firefox places.sqlite file, review the bookmark data for sensitive information, and store the HTML file in a secure location with limited access. They should also keep their system and any third-party utilities used in the program up-to-date with security patches to minimize risk.
+When using the program, there are privacy considerations to keep in mind. Users should ensure they have permission to access the Firefox `places.sqlite` file, review the bookmark data for sensitive information, and store the HTML file in a secure location with limited access. They should also keep their system and any third-party utilities used in the program up-to-date with security patches to minimize risk.
