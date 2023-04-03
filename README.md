@@ -9,5 +9,5 @@ By using firefox.egress, users can save time and manage their bookmarks more eff
 * Custom bookmark manager: Developers building their own bookmark manager can use the program to extract bookmark data and save time.
 * Team bookmark management: Administrators can easily manage and distribute bookmarks to team members.
 
-# When using the program, there are privacy considerations to keep in mind.
-Users should ensure they have permission to access the Firefox places.sqlite file, review the bookmark data for sensitive information, and store the HTML file in a secure location with limited access. They should also keep their system and any third-party utilities used in the program up-to-date with security patches to minimize risk.
+# Privacy Considerations
+When using the program, there are privacy considerations to keep in mind. Users should ensure they have permission to access the Firefox places.sqlite file, review the bookmark data for sensitive information, and store the HTML file in a secure location with limited access. They should also keep their system and any third-party utilities used in the program up-to-date with security patches to minimize risk.
