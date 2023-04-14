@@ -1,6 +1,6 @@
-# bookmark.egress
+# mff-bookmark-egress.sh
 
-bookmark.egress is a Python script that extracts bookmark data from a Firefox `places.sqlite` file and exports it as an HTML file. The HTML file retains the organizational structure of bookmarks, and includes only the title and URL information.
+A Python script that extracts bookmark data from a Firefox `places.sqlite` file and exports it as an HTML file. The HTML file retains the organizational structure of bookmarks, and includes only the title and URL information.
 
 By using bookmark.egress, users can save time and manage their bookmarks more efficiently.
 
