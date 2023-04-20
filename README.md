@@ -38,3 +38,7 @@ Here are three potential use cases for this program:
 ## Privacy Considerations
 
 When using the program, there are privacy considerations to keep in mind. Users should ensure they have permission to access the Firefox `places.sqlite` file, review the bookmark data for sensitive information, and store the HTML file in a secure location with limited access. They should also keep their system and any third-party utilities used in the program up-to-date with security patches to minimize risk.
+
+## License
+
+This script is released under the [MIT License](LICENSE).
