@@ -1,19 +1,19 @@
-# mff-bookmark-egress.py
+# muffin.stuffin
 
-A Python script that extracts bookmark data from a Firefox `places.sqlite` file and exports it as an HTML file. The HTML file retains the organizational structure of bookmarks, and includes only the title and URL information.
+A Python script that extracts bookmark data from a Firefox `places.sqlite` file and exports it as an `HTML` file. The HTML file retains the heirarchal organizational structure of bookmarks, and includes only the title and URL information.
 
-By using mff-bookmark-egress, users can save time and manage their bookmarks more efficiently.
+By using muffin.stuffin, users can save time and manage their bookmarks more efficiently.
 
 ## Rust users
-An implementation of this script's functionality has been made in Rust; If you are interested, please visit the [mff-bookmark-egress.rs](https://github.com/apple-fritter/mff-bookmark-egress.rs) repository.
+An implementation of this script's functionality has been made in Rust; If you are interested, please visit the [muffin.stuffin.rs](https://github.com/apple-fritter/muffin.stuffin.rs) repository.
 
 ## Usage
 
-To use the program, first make sure you have Python installed on your machine. Then, download the `egress.py` file and save it in the same directory as your `places.sqlite` file.
+To use the program, first make sure you have Python installed on your machine. Then, download the `muffin.stuffin.py` file and save it in the same directory as your `places.sqlite` file.
 
-To run the program, open a terminal in the same directory as the `egress.py` and `places.sqlite` files, and enter the following command:
+To run the program, open a terminal in the same directory as the `muffin.stuffin.py` and `places.sqlite` files, and enter the following command:
 
-`python egress.py`
+`python muffin.stuffin.py`
 
 
 The program will automatically locate the `places.sqlite` file and export the bookmark data to an HTML file named `bookmarks.html`.
